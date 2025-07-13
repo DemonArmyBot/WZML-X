@@ -857,7 +857,9 @@ def page_not_found(e):
         f"<h1>404: Torrent not found! Mostly wrong input. <br><br>Error: {e}</h2>",
         404,
     )
-
+@app.route('/health')
+def health():
+    return "OK", 200
 
 if __name__ == "__main__":
     app.run()
