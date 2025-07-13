@@ -44,3 +44,5 @@ uvloop
 xattr
 yt-dlp[default,curl-cffi]
 pytz
+brotli
+brotlicffi
